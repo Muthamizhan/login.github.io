@@ -1,1 +1,8 @@
 /*login style*/
+
+@media screen and (min-width: 1024px){
+	.wrapper{
+		width: 50%;
+		margin: 0px auto;
+	}
+}

@@ -1,0 +1,19 @@
+<div layout="column">
+    <form role="form" name="frm">
+        <h2 class="md-title">Login</h2>
+        <div class="menu-demo-container" layout-align="center center" layout="column">
+            <md-input-container class="md-icon-float">
+                <!-- Use floating label instead of placeholder -->
+                <label>Email</label>
+                <input type="email" ng-model="user.email" ng-required require>
+            </md-input-container>
+            <md-input-container class="md-icon-float">
+                <!-- Use floating label instead of placeholder -->
+                <label>Password</label>
+                <input type="password" ng-model="user.password" ng-required require>
+            </md-input-container>
+            <md-button class="md-raised md-primary" type="submit" ng-click="login(user)">login</md-button>
+        </div>
+        <h5 class="md-title">{{msgText}}</h5>
+    </form>
+</div>
