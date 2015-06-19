@@ -7,3 +7,6 @@ This demo login covers almost all the  concept of the angular like Directives,se
 Demo :
 
 http://www.msmuthu008.webege.com/nglogin/
+
+email : msmuthu008@gmail.com
+pass : 1234
